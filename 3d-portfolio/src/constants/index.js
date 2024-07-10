@@ -112,7 +112,7 @@ const experiences = [
     company_name: "GUVI Geek Networks, IITM Research Park",
     icon: guvi,
     iconBg: "#fff",
-    date: "Mar 2024 - May 2024",
+    date: "Feb 2024 - May 2024",
     points: [
       "Maintained updated knowledge through continuing education and advanced training.",
       "Planned and completed  projects and assesments."
