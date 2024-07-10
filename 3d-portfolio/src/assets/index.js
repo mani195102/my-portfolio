@@ -3,7 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import github from "./website.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -22,13 +22,18 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
+import tvs from "./company/Tvs.png";
+import blueway from "./company/blueway.jpg";
 import shopify from "./company/shopify.png";
+import sathyam from "./company/sathyam.png";
 import starbucks from "./company/starbucks.png";
+import sharesoft from "./company/sharesoft.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import dancefashions from "./Dance-Fashions.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import tripguide from "./hotel.png";
+import guvi from './company/guvi.png'
 
 export {
   logo,
@@ -56,7 +61,12 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
   jobit,
+  blueway,
+  dancefashions,
+  sathyam,
+  tvs,
+  guvi,
+  sharesoft,
   tripguide,
 };

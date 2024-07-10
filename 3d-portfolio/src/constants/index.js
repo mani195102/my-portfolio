@@ -4,22 +4,22 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  sathyam,
   html,
   css,
   reactjs,
   redux,
   tailwind,
   nodejs,
+  guvi,
+  dancefashions,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
+  sharesoft,
+  blueway,
+  tvs,
   shopify,
-  carrent,
   jobit,
   tripguide,
   threejs,
@@ -46,16 +46,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "React Developer",
+    icon: reactjs,
   },
   {
     title: "Backend Developer",
-    icon: backend,
+    icon: nodejs,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Shopify Developer",
+    icon: shopify,
   },
 ];
 
@@ -71,10 +71,6 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -107,64 +103,72 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "STUDENT INTERN",
+    company_name: "GUVI Geek Networks, IITM Research Park",
+    icon: guvi,
+    iconBg: "#fff",
+    date: "Mar 2024 - May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Maintained updated knowledge through continuing education and advanced training.",
+      "Planned and completed  projects and assesments."
+    ],
+  },
+  {
+    title: "UI FRONTEND DEVELOPER",
+    company_name: "Sharesoft Technology",
+    icon: sharesoft,
+    iconBg: "#fff",
+    date: "October 2021 - November 2023",
+    points: [
+      "Developing and maintaining web applications  and other related technologies.",
+      " Developed front-end web pages using HTML5, CSS, JavaScript,Jquery,React",
+      "Proficient in SHOPIFY",
+      "Coordinate with a team of UX and UI developers to build quality web applications with cross-browser compatibility",
+      "Analyse existing web applications and identify opportunities to enhance functionality and improve the user experience.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "ASSISTANT MONITORING CELL",
+    company_name: "Blueway Marketting Services (THE HINDU PUBLISHING LTD )",
+    icon: blueway,
+    iconBg: "#fff",
+    date: "Oct 2018 - Aug 2021",
+    points: [
+      "Supervising the packaging the newspaper in packaging section.,",
+      "Coordinated with other department supervisors to ensure smooth workflow and project alignment."
+    ],
+  },
+  {
+    title: "LAB CHEMIST",
+    company_name: "SATHYAM KISSAN CARE PVT LTD.",
+    icon: sathyam,
+    iconBg: "#fff",
+    date: "Jun 2016 - Aug 2018",
+    points: [
+      "Handling the FERMENTOR up to 1000ltrs,500ltrs",
+      "CRM preparation and stock maintenance.",
+      "Assisted in the development of new products through research and experimentation with different compounds or mixtures.",
+      "Performed laboratory tests on samples to determine physical and chemical properties."
+    ],
+  },
+  {
+    title: "SALES AD-COORDINATOR",
+    company_name: "Sri Pandian Tvs",
+    icon: tvs,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Apr 2015 - May 2016",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Handling of CRM IN BIKES",
+      "Achieving the sales target at earliest",
+      "Monitoring the NPS WAY, Stock handling and customer service."
     ],
   },
 ];
@@ -198,67 +202,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "DanceFashion store ",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "DanceFashion store is providing the  Largest Dance Retail Store in Southeast. Shop tights, leotards, tutus, and accessories for dance, gymnastics leotards, dresses, outfits, and accessories",
     tags: [
       {
-        name: "react",
+        name: "Shopify",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: dancefashions,
+    source_code_link: "https://www.dancefashionssuperstore.com/",
   },
   {
-    name: "Job IT",
+    name: "Mychat application",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "chat application is Users can send and receive messages in real-time, facilitating instant communication and collaboration,Enables users to engage in private conversations with individuals, allowing for secure communication.Show alert messages when messages contain empty messages.Allows users to create or participate in group chats with multiple participants, facilitating team communication and collaboration.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "materialui",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Node",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://zen-mychat.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Hotel website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Welcome to Seaside Escapes Hotel,Discover your perfect getaway at Hotel XYZ, where luxury meets tranquility on the shores of paradise. Our website, crafted with HTML, CSS, and JavaScript, offers a seamless experience for planning your dream vacation.",
     tags: [
       {
-        name: "nextjs",
+        name: "Html5",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Css3",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Boostrap",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://manihotelsite.netlify.app/",
   },
 ];
 
