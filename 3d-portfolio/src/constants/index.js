@@ -17,6 +17,7 @@ import {
   git,
   figma,
   sharesoft,
+  ultradownload,
   blueway,
   tvs,
   shopify,
@@ -105,14 +106,27 @@ const technologies = [
     icon: figma,
   }
 ];
-
 const experiences = [
+    {
+    title: "SOFTWARE PROGRAMMER",
+    company_name: "ULTRAPRO BLOCKCHAIN TECHNOLOGY PVT LTD",
+    icon: ultradownload,
+    iconBg: "#fff",
+    date: "June 2024 - Decembe 2024",
+    points: [
+      "Developed front-end Admin panel using HTML5, CSS, Javscript,Reactjs",
+      "Moderate in handling the backend – Nodejs and Expressjs",
+      "Proficient in SHOPIFY",
+      "Coordinate with a team of UX and UI developers to build quality web Exchange applications with cross-browser ",
+      "compatibility Analyse existing web applications and identify opportunities to enhance functionality and improve the user experience for Crypto (trading,Deposit,Withdraw,Wallet).",
+    ],
+  },
   {
     title: "STUDENT INTERN",
     company_name: "GUVI Geek Networks, IITM Research Park",
     icon: guvi,
     iconBg: "#fff",
-    date: "Feb 2024 - May 2024",
+    date: "March 2024 - May 2024",
     points: [
       "Maintained updated knowledge through continuing education and advanced training.",
       "Planned and completed  projects and assesments."
