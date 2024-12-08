@@ -28,6 +28,7 @@ import shopify from "./company/shopify.png";
 import sathyam from "./company/sathyam.png";
 import starbucks from "./company/starbucks.png";
 import sharesoft from "./company/sharesoft.png";
+import ultradownload from "./company/ultradownload.png";
 import tesla from "./company/tesla.png";
 
 import dancefashions from "./Dance-Fashions.png";
@@ -68,5 +69,6 @@ export {
   tvs,
   guvi,
   sharesoft,
+  ultradownload,
   tripguide,
 };
