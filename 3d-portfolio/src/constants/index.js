@@ -112,7 +112,7 @@ const experiences = [
     company_name: "ULTRAPRO BLOCKCHAIN TECHNOLOGY PVT LTD",
     icon: ultradownload,
     iconBg: "#fff",
-    date: "June 2024 - Decembe 2024",
+    date: "June 2024 - December 2024",
     points: [
       "Developed front-end Admin panel using HTML5, CSS, Javscript,Reactjs",
       "Moderate in handling the backend – Nodejs and Expressjs",
