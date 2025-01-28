@@ -22,6 +22,7 @@ import {
   tvs,
   shopify,
   jobit,
+  Todo,
   tripguide,
   threejs,
 } from "../assets";
@@ -235,6 +236,27 @@ const projects = [
     ],
     image: dancefashions,
     source_code_link: "https://www.dancefashionssuperstore.com/",
+  },
+  {
+    name: "Todo Application",
+    description:
+      "A 'Todo' feature allows users to create, organize, and manage tasks effectively. Users can add tasks with a title and optional description, set priorities, assign due dates, and track progress. Additional features may include categories, reminders, and task statuses (e.g., pending, in progress, completed). This functionality helps users stay organized and ensures timely task completion.",
+    tags: [
+      {
+        name: "Html5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Css3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Reactjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Todo,
+    source_code_link: "https://zen-todotasking.netlify.app/",
   },
   {
     name: "Mychat application",

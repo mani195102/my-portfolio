@@ -35,6 +35,7 @@ import dancefashions from "./Dance-Fashions.png";
 import jobit from "./jobit.png";
 import tripguide from "./hotel.png";
 import guvi from './company/guvi.png'
+import Todo from './Todo.png'
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   sharesoft,
   ultradownload,
   tripguide,
+  Todo
 };
