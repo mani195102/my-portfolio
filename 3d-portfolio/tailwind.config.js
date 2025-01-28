@@ -21,6 +21,17 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      animation: {
+        'spin-slow': 'spin 4s linear infinite',
+        'pulse-round': 'pulseRound 3s ease-in-out infinite',
+      },
+      keyframes: {
+        pulseRound: {
+          '0%': { transform: 'scale(1)', opacity: 1 },
+          '50%': { transform: 'scale(1.1)', opacity: 0.7 },
+          '100%': { transform: 'scale(1)', opacity: 1 },
+        },
+      },
     },
   },
   plugins: [],
