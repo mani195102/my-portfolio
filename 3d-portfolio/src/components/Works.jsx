@@ -107,7 +107,7 @@ const Works = () => {
             prevEl: '.swiper-button-prev',
           }}
           loop={true}
-        // autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 4000 }}
           breakpoints={{
             640: { slidesPerView: 1 }, // 1 slide on small screens
             768: { slidesPerView: 2 }, // 2 slides on medium screens
