@@ -87,6 +87,7 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
       <div className='w-full flex'>
+           
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
@@ -106,7 +107,7 @@ const Works = () => {
             prevEl: '.swiper-button-prev',
           }}
           loop={true}
-         autoplay={{ delay: 3000 }}
+        // autoplay={{ delay: 3000 }}
           breakpoints={{
             640: { slidesPerView: 1 }, // 1 slide on small screens
             768: { slidesPerView: 2 }, // 2 slides on medium screens
@@ -147,6 +148,22 @@ const Works = () => {
                     </div>
                   </div>
                   <div className='mt-5'>
+                     {/* GitHub Button */}
+                     <div className="mt-4 mb-2 flex justify-center">
+                        <button
+                          onClick={() => window.open(project.source_link, "_blank")}
+                          style={{
+                            boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+                            position: "relative",
+                          }}
+                          className="bg-[#151030] text-white px-4 py-2 rounded-lg font-semibold flex items-center gap-2 relative overflow-hidden hover:bg-gray-200"
+                        >
+                          <span className="relative">View Code</span>
+                          <div className="absolute top-0 left-[-100%] w-full h-full bg-gradient-to-r from-transparent via-white to-transparent opacity-50 animate-shining"></div>
+                        </button>
+                      </div>
+
+
                     <h3 className='text-white font-bold text-[24px]'>{project.name}</h3>
                     <p className='mt-2 text-secondary text-[14px]'>
                       {truncateText(project.description, 140)}

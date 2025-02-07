@@ -27,3 +27,18 @@
   background-color:#9660fc;
 }
 
+@keyframes shining {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.animate-shining {
+  animation: shining 1.5s infinite linear;
+}
+
+
+

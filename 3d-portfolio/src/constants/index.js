@@ -257,6 +257,7 @@ const projects = [
     ],
     image: Todo,
     source_code_link: "https://zen-todotasking.netlify.app/",
+    source_link:"https://github.com/mani195102/To-do"
   },
   {
     name: "Mychat application",
@@ -278,7 +279,8 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://zen-mychat.netlify.app/",
-  },
+    source_link:"https://github.com/mani195102/mychat"
+},
   {
     name: "Hotel website",
     description:
@@ -299,6 +301,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://manihotelsite.netlify.app/",
+    source_link:"https://github.com/mani195102/standard-hotelsite"
   },
 ];
 
